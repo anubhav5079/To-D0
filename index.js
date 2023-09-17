@@ -4,7 +4,7 @@ const listContainer=document.getElementById("list-container")
 
 function addTask(){
   if(inputBox.value===''){
-    alert("likh na bahinchod")
+    alert("Write something ")
   }
   else{
     let li=document.createElement("li");
